@@ -51,11 +51,55 @@
 
 # 14. Write a python program to print the following pattern ?
 
-# for i in range (4):
-#     for j in range(4):
-#         print("A  B  C")
+# a=65
+# for i in range (1,5):
+#     for j in range(i):
+#         print(chr(a-j),end=" ")
+#     print()
+#     a+=1
+    
 
 
 # 15. Write a python function to calculate the factorial of a given number?
 
+# def fact():
+#     a=int(input("enter a number"))
+#     fact=1
+#     for i in range(1,a+1):
+#         fact*=i
+#     print("factorial is,",fact)
+
+
+# fact()
+
 # 16. Write a python function that takes a dict and returns a new dict with keys and  values swapped?
+
+
+# method =1
+
+
+# d={1:'one',2:'two',3:'three'}
+# def num(d):
+#     d1={}
+#     for i in d:
+#         d1[d[i]]=i
+#     return d1
+# print(num(d))
+
+
+# # output
+
+# {'one': 1, 'two': 2, 'three': 3}
+
+
+#  method =2
+
+# d={1:'one',2:'two',3:'three'}
+# def num(d):
+#     return { value:key for key,value in d.items()}
+# print(num(d))
+
+# # output
+
+# {'one': 1, 'two': 2, 'three': 3}
+
